@@ -1,0 +1,22 @@
+public class Program {
+    public static void main(String[] args){
+        int n1 = 2;
+        int n2 = 4;
+        int n3;
+        int suma;
+        int contador = 0;
+        System.out.print(n1+","+n2);
+        while(contador < 50){
+            n3 = n1 + n2;
+            n2 = n3;
+            
+            System.out.print(","+n3);
+            contador = contador + 1;
+            
+        }
+        suma=n2+n3;
+        System.out.print(" = "+suma);
+        
+    }
+    
+}
