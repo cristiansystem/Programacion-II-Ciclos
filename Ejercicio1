@@ -1,0 +1,11 @@
+public class Program {
+	public static void main(String[] args) {
+     int counter = 0;
+     int n = 0;
+     while(counter < 100){
+         n = counter + 1;
+        System.out.println("- "+n);
+     counter = counter + 1;
+     }
+	}
+}
