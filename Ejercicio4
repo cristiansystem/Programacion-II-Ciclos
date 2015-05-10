@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Program 
+{
+    public static void main(String[] args)
+  {
+       Integer c = 0;
+       Integer impar = 0;
+       Integer m=1;
+       while(c < 20)
+     {
+        
+        if(c%2 != 0)
+       {
+         m = c *m;
+         System.out.println(c);
+       }
+          c = c + 1;
+     }
+       System.out.println("La multiplicacion es: "+m);
+  }
+}
