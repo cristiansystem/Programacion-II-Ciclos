@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Program {
+	public static void main(String[] args) {
+     Integer a;
+    Integer b;
+    Scanner lector = new Scanner(System.in);
+     
+    System.out.println("Ingrese un numero: ");
+   a = lector.nextInt();
+   System.out.println("Ingrese un numero: ");
+   b = lector.nextInt();
+     System.out.println();
+     System.out.println();
+     System.out.println(a);
+     
+   while(a < b)
+   {
+  
+     a = a +1;
+     System.out.println(a+",");
+     
+   }
+	}
+}
