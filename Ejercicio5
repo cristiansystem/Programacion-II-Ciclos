@@ -1,0 +1,16 @@
+import java.lang.Math; 
+
+public class HelloWorld
+{
+  public static void main(String[] args)
+  {
+     Integer c=-9;
+     Integer num;
+     while(c<=0)
+     {
+         num= c + -1;
+         System.out.println("#"+num);
+         c=c+1;
+     }
+  }
+}
