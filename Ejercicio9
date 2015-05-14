@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Program {
+    public static void main(String[] args) {
+        Integer edad;
+        Integer cont = 0;
+        Scanner tecla = new Scanner(System.in);
+        System.out.println("Ingrese la edad: ");
+        edad = tecla.nextInt();
+        while(cont<edad)
+        {
+            cont=cont+1;
+            System.out.print(cont+",");
+        }
+
+    }
+}
